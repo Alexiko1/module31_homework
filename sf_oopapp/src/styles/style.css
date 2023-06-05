@@ -1,0 +1,25 @@
+#app-login-btn {
+    width: 200px;
+}
+body {
+	background-color: #0079BF;
+}
+.card-footer, .navbar {
+	background: #0067A3;
+}
+.subTitle {
+	margin: 20px;
+	border-radius: 5px;
+    padding-top: 20px;
+	padding-bottom: 390px;
+}
+#app-login-form {
+	margin: auto;
+}
+h1 {
+	font-size: 20px;
+}
+.md-3 {
+	margin: 10px;
+	border-radius: 5px;
+}

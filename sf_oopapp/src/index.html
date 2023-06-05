@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple TODO App</title>
+</head>
+
+<body>
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid" id="title">
+            <a class="navbar-brand text-white" href="#">Awesome Kanban Board</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form id="app-login-form" class="d-flex">
+                    <input class="form-control me-2" name="login" autocomplete="username" type="text"
+                        placeholder="Login" aria-label="Login">
+                    <input class="form-control me-2" name="password" autocomplete="current-password" type="password"
+                        placeholder="Password" aria-label="Password">
+                    <button id="app-login-btn" class="btn btn-primary" type="submit">Sign In</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+    <main class="container-fluid">
+        <div class="col bg-light subTitle" id="content">
+            <p id="content">Please Sign In to see your tasks!</p>
+        </div>
+    </main>
+
+<footer >
+    <div class="container-fluid text-white card-footer">
+        <div class="row">
+            <div class="col-4">
+                <div class="row">
+                    <div class="col-4">
+                        <p>Active task:</p>  
+                    </div>
+                    <div class="col-2">
+                        <nav id="countActiveTask">null</nav> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="row">
+                    <div class="col-4">
+                        <p>Finished tasks:</p> 
+                    </div>
+                    <div class="col-2">
+                        <nav id="countFinishedTask">null</nav>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="row">
+                    <div class="col">
+                        <p>Kanban board by</p> 
+                    </div>
+                    <div class="col">
+                        <p>Alex, 2023</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+ 
+</html>
